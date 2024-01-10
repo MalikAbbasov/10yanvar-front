@@ -1,0 +1,53 @@
+#header {
+    max-width: 100vw;
+    min-height: 90vh;
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        width: 1200px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        .carusel {
+            width: 800px;
+            position: relative;
+            .box {
+                .carousel-container {
+                    background-color: initial !important;
+                    .carousel-item {
+                        .carousel-caption-bottom {
+                            position: absolute;
+                            top: 40%;
+                            left: 60px;
+
+                                h1 {
+                                    font-size: 85px;
+                                    line-height: 102px;
+                                    width: 700px;
+                                    height: 200px;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                    line-height: 30px;
+                                    letter-spacing: normal;
+                                    width: 600px;
+                                }
+                            
+                        }
+                    }
+                    .carousel-image {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
